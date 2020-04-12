@@ -16,12 +16,17 @@ const User = props => (
 
 export default () => (
   <Container>
-    <h1>About Me</h1>
-    <p>Whats to know...</p>
+    <h1>About CSS Modules</h1>
+    <p>CSS Modules are cool</p>
     <User
-      username="Magnus Hillestad [not me. actual image to come working on my gatsby skills]"
+      username="Jane Doe"
+      avatar="https://s3.amazonaws.com/uifaces/faces/twitter/adellecharles/128.jpg"
+      excerpt="I'm Jane Doe. Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+    />
+    <User
+      username="Bob Smith"
       avatar="https://s3.amazonaws.com/uifaces/faces/twitter/vladarbatov/128.jpg"
-      excerpt="CEO and Co-founder of Sanity.io. Recovering Private Equity professional. Noob developer. Love principles. Father of Pia and Daniel. Living in Piedmont, CA, USA"
+      excerpt="I'm Bob Smith, a vertically aligned type of guy. Lorem ipsum dolor sit amet, consectetur adipisicing elit."
     />
   </Container>
 )
